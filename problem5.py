@@ -23,6 +23,14 @@ for a0 in range(t):
     n = int(input().strip())
     ans,ind=1,0
     temp_ans=1
+    """
+    The number divisible by all numbers less than n will have
+    all the prime factors less than n multiplied, since prime factors
+    are the lowest you can reduce until. Also all the powers will introduce
+    a duplicate of that prime factors.
+
+    I realized later that this just produces the LCM. Dumb.
+    """
     p =true_primes[ind]
     while(p<=n):
         temp_ans=1
