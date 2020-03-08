@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 limit=5000
+=======
+mit=5000
+>>>>>>> 30af2b7ee32e247949aa73a518a08fb564ca3b92
 n_digits=[0 for _ in range(limit+1)]
 f,s=1,1
 t=0
